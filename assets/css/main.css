@@ -1,0 +1,173 @@
+ *{
+margin: 0;
+box-sizing: border-box;
+}
+html {
+font-family: "Tahoma", sans-serif;
+}
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4285f3+0,31a750+58,31a750+58 */
+background: #4285f3; /* Old browsers */
+background: -moz-linear-gradient(45deg, #4285f3 0%, #31a750 58%, #31a750 58%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #4285f3 0%,#31a750 58%,#31a750 58%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #4285f3 0%,#31a750 58%,#31a750 58%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4285f3', endColorstr='#31a750',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#root {
+width: 1469px;
+margin: auto;
+margin-top: 30px;
+background: #ffffff;
+}
+
+.header {
+height: 130px;
+padding: 35px 150px;
+border-bottom: 1px solid #e3e5e7;
+}
+
+.logo-wrapper,
+.search-bar,
+.microphone-icon {
+ float: left;
+}
+.search-bar{
+height: 70px;
+width: 700px;
+padding-top: 17px;
+margin-left: 10px;
+}
+
+.search-bar:input{
+padding: 15px;
+margin-bottom: 30px;
+font-size: 30pt;
+}
+
+.microphone{
+   float: right;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;}
+
+  .microphone:before{
+  content: ''
+  display: block;
+  }
+
+ .left-column{
+width: 50%;
+float: left;
+margin-top: 70px;
+padding-left: 150px;
+  }
+
+.right-column{
+width: 50%;
+float: right;
+margin-top: 70px;
+padding-right: 150px;
+padding-left: 50px;
+}
+
+.column-title {
+font-size: 26px;
+padding-bottom: 45px;
+}
+
+.left-column .item,
+.right-column .item {
+float: left;
+margin-bottom: 30px;
+}
+
+.left-column .item > div{
+  float: left;
+}
+
+.left-column .item .content{
+width: 370px;
+margin-left: 20px;
+}
+.left-column .item .title,
+.right-column .item .title{
+margin-top: 10px;
+font-size: 18px;
+  }
+
+div .subtitle{
+margin: 5px 0 12px 0;
+  }
+
+div .subtitle .category,
+p.video{
+color: #3CB371;
+}
+
+div .subtitle .created_at{
+color:#5F9EA0;
+}
+
+.rss{
+float: right;
+font-size: 25px;
+color:#ffa500;
+ }
+
+i.fas.fa-rss{
+  margin-left: -50px;
+}
+
+  .see-more{
+  width: 515px;
+  display: flex;
+  justify-content: space-between;
+  margin-top:40px;
+  margin-bottom: 50px;
+  }
+
+a {
+text-decoration: none;
+}
+footer{
+display: block;
+margin: 0 150px 0 150px;
+}
+
+footer .content{
+width: 160px;
+height: 99px;
+padding: 25px 0 0 10px;
+}
+
+.bbc-stream > div,
+.cbs-stream > div,
+.cnn-stream > div{
+  float: left;
+}
+
+.stream{
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+footer .see-more{
+width:100%;
+}
+ i.fa.fa-spinner.fa-spin.fa-3x.fa-fw{
+  color:#5F9EA0;
+  margin-left: 700px;
+  margin-bottom: 40px;
+}
+
+.clearfix
+.clearfix:before
+.clearfix:after{
+content: "";
+display: block;
+clear: both;
+float: none;
+visibility: hidden;
+}
