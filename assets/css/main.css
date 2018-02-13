@@ -43,7 +43,13 @@ padding: 15px;
 margin-bottom: 30px;
 font-size: 30pt;
 }
-
+input[type="search"] {
+  border: none;
+  display: block;
+  height: 40px;
+  width: 100%;
+  font-size: 25px;
+}
 .microphone{
    float: right;
   border: none;
@@ -102,7 +108,7 @@ margin: 5px 0 12px 0;
   }
 
 div .subtitle .category,
-p.video{
+p.video a{
 color: #3CB371;
 }
 

@@ -11,13 +11,20 @@
 </head>
 <style>
 a {color:#5F9EA0;}
+/* [type="search"] {
+  border: none;
+  display: block;
+  height: 40px;
+  width: 100%;
+  font-size: 30px;
+} */
 </style>
 <body>
   <div id="root">
       <div class="clearfix header">
           <div class="logo-wrapper"><img src="assets/img/G_icon.jpg" alt="Google logo" width="59" height="59">
           </div>
-          <div class="search-bar"><input type="search" placeholder="Seach..." size="60"></div>
+          <div class="search-bar"><input type="search" placeholder="Seach..." style="border:none" size="60"></div>
           <button class="microphone"><img src="assets/img/micr_im.jpg" alt="Microphone" width="32" height="59"></button>
       </div>
 <!-- Общий блок с информацией и двумя колонками -->
@@ -155,7 +162,7 @@ a {color:#5F9EA0;}
      <div class="content">
      <p>BBC</p>
      <p>Live streaming video</p>
-     <p class="video"> Watch live <i class="fas fa-caret-right"></i></p>
+     <p class="video"><a href="#"> Watch live <i class="fas fa-caret-right"></i></a></p>
    </div>
   </div>
   <div class="cbs-stream">
@@ -163,7 +170,7 @@ a {color:#5F9EA0;}
      <div class="content">
      <p>CBS News</p>
      <p>Featured videos</p>
-     <p class="video"> Watch live <i class="fas fa-caret-right"></i></p>
+     <p class="video"><a href="#"> Watch live <i class="fas fa-caret-right"></i></a></p>
    </div>
   </div>
   <div class="cnn-stream">
@@ -171,7 +178,7 @@ a {color:#5F9EA0;}
      <div class="content">
      <p>CNN.com</p>
      <p>Latest News videos</p>
-     <p class="video"> Watch live <i class="fas fa-caret-right"></i></p>
+     <p class="video"><a href="#"> Watch live <i class="fas fa-caret-right"></i></a></p>
    </div>
   </div>
 </div>
